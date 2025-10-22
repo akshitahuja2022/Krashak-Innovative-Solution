@@ -1,0 +1,162 @@
+.rover-container {
+  width: 100%;
+}
+.rover-container .rover-header {
+  width: 100%;
+}
+.rover-container .rover-header img {
+  width: 100%;
+  height: 550px;
+}
+.rover-container .heading {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.rover-container .rover-middle .heading h3 {
+  margin-top: 2rem;
+  font-size: 2rem;
+  margin-bottom: 5px;
+}
+.rover-container .rover-middle .heading p {
+  width: 40%;
+  margin-left: 28rem;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+.rover-container .rover-button {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  margin-bottom: 1rem;
+}
+.rover-container .rover-button button {
+  display: flex;
+  cursor: pointer;
+  background: #f4b94d;
+  padding: 2px 25px;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  margin: 1rem;
+  box-shadow: 0px 0px 2px gray;
+}
+.rover-button .icon {
+  margin-top: 5px;
+  margin-left: 8px;
+  margin-right: 10px;
+}
+.rover-container .rover-button button:hover {
+  background-color: #dfdcd7;
+}
+.rover-container .map-section {
+  margin-top: 33rem;
+}
+.wavepoint-button label {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.wavepoint-button input {
+  padding-left: 10px;
+  padding-top: 8px;
+  border: 1px solid black;
+  width: 40%;
+  margin-left: 1rem;
+}
+.rover-footer {
+  margin-top: 5rem;
+}
+@media screen and (max-width: 670px) {
+  .rover-container .rover-header img {
+    height: 280px;
+  }
+  .rover-container .rover-middle .heading h3 {
+    margin-top: 1rem;
+    font-size: 1.4rem;
+    margin-bottom: 5px;
+  }
+  .rover-container .rover-middle .heading p {
+    width: 100%;
+    margin-left: 0;
+    font-size: 1rem;
+  }
+  .rover-container .rover-button button {
+    font-size: 1rem;
+  }
+  .wavepoint-button {
+    flex-direction: column;
+  }
+  .wavepoint-button label {
+    display: none;
+  }
+  .wavepoint-button input {
+    padding-left: 5px;
+    padding-top: 2px;
+    width: 90%;
+    margin-left: 0;
+  }
+  .wavepoint-button input::placeholder {
+    font-size: 0.9rem;
+  }
+  .rover-container .map-section {
+    margin-top: 30rem;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 670px) {
+  .rover-container .rover-middle .heading h3 {
+    margin-top: 1rem;
+    font-size: 1.7rem;
+    margin-bottom: 5px;
+  }
+}
+
+@media (min-width: 670px) and (max-width: 1070px) {
+  .rover-container .rover-header img {
+    width: 100%;
+    height: 450px;
+  }
+  .rover-container .rover-middle .heading h3 {
+    margin: auto;
+    margin-top: 1rem;
+    font-size: 1.7rem;
+  }
+  .rover-container .rover-middle .heading p {
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    font-size: 1.1rem;
+  }
+  .wavepoint-button label {
+    font-size: 1.1rem;
+  }
+  .wavepoint-button input {
+    padding-left: 5px;
+    padding-top: 2px;
+    width: 55%;
+    margin-left: 5px;
+  }
+}
+
+@media (min-width: 1070px) and (max-width: 1250px) {
+  .rover-container .rover-header img {
+    height: 450px;
+  }
+  .rover-container .rover-middle .heading p {
+    margin: auto;
+    width: 60%;
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width: 1250px) and (max-width: 1500px) {
+  .rover-container .rover-middle .heading p {
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    font-size: 1.1rem;
+  }
+}

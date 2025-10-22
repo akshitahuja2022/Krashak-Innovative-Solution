@@ -1,0 +1,178 @@
+.login {
+  height: 100vh;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login_container {
+  background: linear-gradient(#10b531, #78ffd6);
+  padding-bottom: 30px;
+  width: 400px;
+  max-height: 60vh;
+}
+
+.login_container h1 {
+  font-size: 1.7rem;
+  text-align: center;
+  color: black;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.input-box {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 300px;
+  height: 40px;
+  font-size: 1.2rem;
+  margin-bottom: 1.3rem;
+  background: #eaeaea;
+}
+.input-box input {
+  width: 100%;
+  font-size: 1rem;
+  background: none;
+  outline: none;
+  margin-left: 1rem;
+  border: none;
+}
+.input-box label {
+  color: gray;
+  margin-left: 1.2rem;
+}
+.input-box input::placeholder {
+  font-size: 0.9rem;
+}
+.input .account {
+  cursor: pointer;
+  margin-left: 3rem;
+  color: black;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.input .account span {
+  color: rgb(67, 58, 58);
+  cursor: pointer;
+}
+.input .forget-password p {
+  margin-left: 3rem;
+  cursor: pointer;
+}
+.input .submit-button {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+.input .submit-button .btn {
+  border: none;
+  margin-left: 3rem;
+  font-size: 1.1rem;
+  width: 300px;
+  height: 34px;
+  color: black;
+  background-color: rgb(23, 182, 71);
+  border-radius: 2px;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+/* Reset Password css */
+
+.login_container .para {
+  font-size: 1.1rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.login_container .otp-box {
+  width: 80%;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+}
+.login_container .otp-box input {
+  width: 40px;
+  height: 40px;
+  color: black;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin-bottom: 1rem;
+  text-align: center;
+  background: white;
+}
+.login_container .reset-otp .submit-button {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+.login_container .reset-otp .submit-button .btn {
+  border: none;
+  margin-left: 3rem;
+  font-size: 1.1rem;
+  width: 300px;
+  height: 34px;
+  color: black;
+  background-color: rgb(23, 182, 71);
+  border-radius: 2px;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .login_container {
+    width: 300px;
+    max-height: 90vh;
+  }
+  .input-box {
+    width: 250px;
+  }
+  .input-box .input {
+    width: 100%;
+  }
+  .input-box label {
+    margin-left: 0.6rem;
+  }
+  .input .submit-button .btn {
+    margin-left: 1.7rem;
+    font-size: 1rem;
+    width: 250px;
+    height: 30px;
+  }
+  .login_container h1 {
+    font-size: 1.4rem;
+  }
+  .input .account {
+    margin-left: 2rem;
+    font-size: 1rem;
+  }
+  .input .forget-password p {
+    margin-left: 2rem;
+  }
+  .login_container .para {
+    font-size: 1rem;
+    margin-left: 1.5rem;
+    width: 85%;
+  }
+  .login_container .otp-box {
+    width: 90%;
+  }
+  .login_container .otp-box input {
+    width: 35px;
+    height: 35px;
+  }
+  .login_container .reset-otp .submit-button .btn {
+    margin-left: 1.7rem;
+    width: 250px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 1500px) {
+  .login_container {
+    max-height: 90vh;
+  }
+}

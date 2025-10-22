@@ -1,0 +1,212 @@
+.fixed-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  font-size: 14px;
+  z-index: 100;
+  background-color: transparent;
+  scroll-behavior: smooth;
+}
+.fixed-navbar .logo {
+  mix-blend-mode: multiply;
+  height: 52px;
+  margin-left: 3rem;
+}
+
+.nav {
+  display: flex;
+  gap: 1.75rem;
+  font-size: 1.2rem;
+  color: black;
+  padding-top: 10px;
+  margin-left: 2rem;
+  padding-bottom: 12px;
+}
+.nav .nav_li {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.nav .nav_li:hover {
+  text-decoration: underline;
+}
+.button {
+  width: 50px;
+  height: 50px;
+  margin-top: 7px;
+  margin-right: 6rem;
+}
+.button .btn {
+  border: 2px solid #141313;
+  padding: 2px 30px;
+  color: #1a1818;
+  background-color: #f7ba49;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+.login {
+  display: none;
+}
+.button .userIcon {
+  padding: 3px 20px;
+  display: flex;
+  margin-top: 1px;
+  font-size: 1rem;
+}
+.button .userIcon .icon {
+  font-size: 0.9rem;
+  opacity: 0.9;
+  margin-left: 8px;
+  margin-top: 5px;
+}
+.scrolled {
+  background-color: #f7ba49; /* change to your color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* optional: add smooth shadow */
+}
+/* Responsive */
+.menu_icon {
+  display: none;
+  font-size: 1.8rem;
+  margin-top: 1rem;
+}
+.sidebar {
+  height: 43vh;
+  position: absolute;
+  top: 0;
+  overflow: hidden;
+  background-color: rgb(250, 250, 250);
+}
+.sidebar .sidebar_heading {
+  display: flex;
+  flex-direction: row;
+  padding-top: 1rem;
+  margin-left: 1rem;
+  gap: 6px;
+  font-size: 1rem;
+}
+.sidebar_heading .icon {
+  margin-top: 5px;
+}
+.sidebar_Nav {
+  display: flex;
+  flex-direction: column;
+}
+.sidebar_Nav .link {
+  padding-top: 0.8rem;
+  padding-left: 2rem;
+  border: 1px solid rgb(230, 219, 219);
+  color: black;
+  font-size: 1rem;
+}
+.sidebar_Nav .link:hover {
+  cursor: pointer;
+  background-color: #f7ba49;
+}
+
+/* Responsiveness */
+@media screen and (max-width: 950px) {
+  .fixed-navbar .logo {
+    margin-left: 1rem;
+    width: 120px;
+    height: 30px;
+  }
+  .nav {
+    padding-top: 8px;
+    display: flex;
+    gap: 1.2rem;
+    font-size: 1.1rem;
+    margin-left: 0;
+  }
+  .nav .nav_li {
+    margin-left: 0.3rem;
+  }
+  .login_button {
+    margin-top: 5px;
+    margin-right: 4rem;
+  }
+  .login_button .btn {
+    padding: 1px 30px;
+    font-size: 1rem;
+  }
+  .login_button .userIcon {
+    margin-left: -1rem;
+    padding: 1px 21px;
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .fixed-navbar {
+    height: 42px;
+    background-color: #f7ba49;
+  }
+  .fixed-navbar .logo {
+    margin-left: 5px;
+    width: 120px;
+    height: 30px;
+  }
+  .nav,
+  .button {
+    display: none;
+  }
+
+  .menu_icon {
+    display: block;
+    font-size: 1.2rem;
+    margin-top: 8px;
+    margin-right: 1rem;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 670px) {
+  .fixed-navbar {
+    height: 52px;
+    padding: 7px 0;
+    background-color: #f7ba49;
+  }
+  .fixed-navbar .logo {
+    margin-left: 3px;
+    width: 120px;
+    height: 40px;
+  }
+  .nav {
+    gap: 0.3rem;
+    font-size: 0.9rem;
+    padding-top: 10px;
+  }
+  .button {
+    display: none;
+  }
+}
+
+@media (min-width: 670px) and (max-width: 1070px) {
+  .fixed-navbar {
+    height: 52px;
+    padding: 7px 0;
+    background-color: #f7ba49;
+  }
+  .fixed-navbar .logo {
+    margin-left: 5px;
+    width: 110px;
+    height: 40px;
+  }
+  .nav {
+    gap: 0.5rem;
+    font-size: 1.1rem;
+    padding-top: 10px;
+  }
+  .button {
+    margin-top: 8px;
+    margin-right: 5rem;
+  }
+  .button .btn {
+    padding: 0 30px;
+  }
+  .button .userIcon {
+    padding: 0px 20px;
+  }
+}

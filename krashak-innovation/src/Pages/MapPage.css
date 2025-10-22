@@ -1,0 +1,82 @@
+.map-container {
+  width: 54%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #f7ba49;
+  margin: auto;
+  margin-top: -32.6rem;
+}
+.map {
+  margin: auto;
+  width: 100%;
+}
+.map .input-box {
+  width: 100%;
+  height: 45px;
+  background: #f7ba49;
+  margin-bottom: 0;
+}
+.map .input-box input {
+  width: 100%;
+  height: 20px;
+  background: none;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  padding: 0 1rem;
+}
+.map .input-box input::placeholder {
+  color: black;
+  font-size: 1.1rem;
+}
+.map .input-box .remove-map {
+  font-size: 1.5rem;
+  margin-right: 8px;
+  margin-top: 8px;
+}
+
+@media screen and (max-width: 480px) {
+  .map-container {
+    width: 90%;
+    margin-top: -29rem;
+    margin-left: 1.2rem;
+  }
+
+  .map .input-box input::placeholder {
+    font-size: 1rem;
+  }
+  .map .input-box .remove-map {
+    font-size: 1.3rem;
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 670px) {
+  .map-container {
+    width: 90%;
+    margin-top: -29rem;
+    margin-left: 1.7rem;
+  }
+}
+
+@media (min-width: 670px) and (max-width: 1070px) {
+  .map-container {
+    width: 90%;
+    margin-left: 5%;
+  }
+}
+
+@media (min-width: 1070px) and (max-width: 1300px) {
+  .map-container {
+    width: 60%;
+    margin-top: -28.9rem;
+  }
+}
+@media (min-width: 1300px) and (max-width: 1500px) {
+  .map-container {
+    width: 60%;
+    margin-top: -25.9rem;
+  }
+}
