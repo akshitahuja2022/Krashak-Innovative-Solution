@@ -1,4 +1,5 @@
 🌾 Krashak Innovative Solution — AgriTech Web Platform
+
 🚀 Empowering Farmers Through Technology
 
 This project was developed during my 2-month Web Development Internship at Krashak Innovative Solution, an AgriTech startup focused on revolutionizing farming through smart and affordable technology.
