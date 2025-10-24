@@ -5,20 +5,25 @@ This project was developed during my 2-month Web Development Internship at Krash
 
 🧑‍💻 Project Overview
 
-The Krashak Innovative Solution Web Platform is a full-stack web application that allows farmers to register their smart soil-testing devices, monitor real-time soil data, and access advanced AgriTech solutions in one place.
+The Krashak Innovative Solution Web Platform is a full-stack web application that allows farmers to register their smart soil-testing devices, monitor real-time soil data, and access advanced AgriTech solutions — all in one place.
 
 ✨ Key Features
 
-✅ Complete Website Design & Development — Built a fully responsive web application using React.js (frontend) and Node.js (backend).
-✅ User Authentication System — Implemented secure login/signup functionality with EmailJS for automated email confirmations.
-✅ Payment Integration — Integrated Razorpay Payment Gateway for secure online device registration payments.
-✅ Google Maps API Integration — Captures and visualizes user farm locations directly during registration.
-✅ IoT Integration — Connected and streamed real-time data from a Soil Testing Device using Firebase Realtime Database to monitor soil health parameters.
-✅ Rover Controller Module — Developed a Firebase-based Rover Controller to manage robotic movements for smart agricultural automation.
+✅ Complete Website Design & Development: Built a fully responsive web application using React.js (frontend) and Node.js (backend).
+
+✅ User Authentication System: Implemented secure login/signup functionality with EmailJS for automated email confirmations.
+
+✅ Payment Integration: Integrated Razorpay Payment Gateway for secure and seamless device registration payments.
+
+✅ Google Maps API Integration: Captures and visualizes user farm locations directly during registration.
+
+✅ IoT Integration: Connected and streamed real-time data from a Soil Testing Device using Firebase Realtime Database to monitor soil health.
+
+✅ Rover Controller Module: Developed a Firebase-based Rover Controller to manage robotic movements for smart agricultural automation.
 
 🛠️ Tech Stack
 
-Frontend: React.js, HTML5, CSS3, JavaScript,
+Frontend: React.js, HTML5, CSS3, JavaScript
 Backend: Node.js, Express.js
 Database: Firebase Realtime Database, MongoDB
 APIs & Tools: EmailJS, Razorpay API, Google Maps API, Firebase SDK
@@ -26,23 +31,25 @@ Version Control: Git, GitHub
 
 💡 Learning & Experience
 
-This internship gave me hands-on experience in:
+This internship provided valuable hands-on experience in:
 
-Full-stack web development using React & Node.js
+💻 Full-stack web development using React.js and Node.js
 
-Payment gateway & map API integrations
+💰 Integrating payment gateways and Google Maps APIs
 
-Working with IoT and Firebase Realtime Database
+🌐 Working with IoT devices and Firebase Realtime Database
 
-Building scalable, real-world solutions for the agriculture sector
+🚜 Building scalable, real-world solutions for the agriculture sector
 
 🤝 Acknowledgement
 
 Special thanks to the Krashak Innovative Solution Team for their mentorship, guidance, and continuous support throughout the internship! 🌱
 
-🧑‍💻 Developed by
+🧑‍💻 Developed By
 
 Akshit Ahuja
-B.Tech CSE | Engineering College Bikaner
-https://www.linkedin.com/in/akshit-ahuja-1583b928a/
-https://github.com/akshitahuja2022
+🎓 B.Tech CSE | Engineering College Bikaner
+
+🔗 LinkedIn Profile
+
+🔗 GitHub Profile
