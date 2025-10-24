@@ -50,6 +50,6 @@ Special thanks to the Krashak Innovative Solution Team for their mentorship, gui
 Akshit Ahuja
 🎓 B.Tech CSE | Engineering College Bikaner
 
-🔗 LinkedIn Profile
+🔗 LinkedIn Profile - https://www.linkedin.com/in/akshit-ahuja-1583b928a/
 
-🔗 GitHub Profile
+🔗 GitHub Profile - https://github.com/akshitahuja2022
