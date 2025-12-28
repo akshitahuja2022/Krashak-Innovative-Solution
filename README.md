@@ -46,6 +46,9 @@ This internship provided valuable hands-on experience in:
 
 Special thanks to the Krashak Innovative Solution Team for their mentorship, guidance, and continuous support throughout the internship! 🌱
 
+🌐 **Live Demo:**  
+  https://www.krashakinnovativesolution.com/
+
 🧑‍💻 Developed By
 
 Akshit Ahuja
