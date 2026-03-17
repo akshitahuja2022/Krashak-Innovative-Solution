@@ -1,59 +1,98 @@
-🌾 Krashak Innovative Solution — AgriTech Web Platform
 
-🚀 Empowering Farmers Through Technology
+# 🌾 Krashak Innovative Solution — AgriTech Web Platform
 
-This project was developed during my 2-month Web Development Internship at Krashak Innovative Solution, an AgriTech startup focused on revolutionizing farming through smart and affordable technology.
+🚀 **Empowering Farmers Through Technology**
 
-🧑‍💻 Project Overview
+This project was developed during my **2-month Web Development Internship** at *Krashak Innovative Solution*, an AgriTech startup focused on revolutionizing farming through smart and affordable technology.
 
-The Krashak Innovative Solution Web Platform is a full-stack web application that allows farmers to register their smart soil-testing devices, monitor real-time soil data, and access advanced AgriTech solutions — all in one place.
+---
 
-✨ Key Features
+## 🌐 Live Demo : 🔗 https://www.krashakinnovativesolution.com/
 
-✅ Complete Website Design & Development: Built a fully responsive web application using React.js (frontend) and Node.js (backend).
+## 🧑‍💻 Project Overview
 
-✅ User Authentication System: Implemented secure login/signup functionality with EmailJS for automated email confirmations.
+The **Krashak Innovative Solution Web Platform** is a full-stack web application that enables farmers to:
 
-✅ Payment Integration: Integrated Razorpay Payment Gateway for secure and seamless device registration payments.
+- Register their smart soil-testing devices  
+- Monitor real-time soil data  
+- Access advanced AgriTech solutions  
 
-✅ Google Maps API Integration: Captures and visualizes user farm locations directly during registration.
+All in one centralized platform.
 
-✅ IoT Integration: Connected and streamed real-time data from a Soil Testing Device using Firebase Realtime Database to monitor soil health.
+---
 
-✅ Rover Controller Module: Developed a Firebase-based Rover Controller to manage robotic movements for smart agricultural automation.
+## ✨ Key Features
 
-🛠️ Tech Stack
+- ✅ **Complete Website Development**  
+  Built a fully responsive web application using React.js (frontend) and Node.js (backend)
 
-Frontend: React.js, HTML5, CSS3, JavaScript
-Backend: Node.js, Express.js
-Database: Firebase Realtime Database, MongoDB
-APIs & Tools: EmailJS, Razorpay API, Google Maps API, Firebase SDK
-Version Control: Git, GitHub
+- ✅ **User Authentication System**  
+  Secure login/signup with EmailJS for automated email confirmations
 
-💡 Learning & Experience
+- ✅ **Payment Integration**  
+  Integrated Razorpay Payment Gateway for secure device registration payments
 
-This internship provided valuable hands-on experience in:
+- ✅ **Google Maps Integration**  
+  Captures and visualizes farm locations during user registration
 
-💻 Full-stack web development using React.js and Node.js
+- ✅ **IoT Integration**  
+  Real-time soil data streaming using Firebase Realtime Database
 
-💰 Integrating payment gateways and Google Maps APIs
+- ✅ **Rover Controller Module**  
+  Firebase-based controller to manage robotic movements for smart agriculture
 
-🌐 Working with IoT devices and Firebase Realtime Database
+---
 
-🚜 Building scalable, real-world solutions for the agriculture sector
+## 🛠️ Tech Stack
 
-🤝 Acknowledgement
+**Frontend:**  
+- React.js  
+- HTML5  
+- CSS3  
+- JavaScript  
 
-Special thanks to the Krashak Innovative Solution Team for their mentorship, guidance, and continuous support throughout the internship! 🌱
+**Backend:**  
+- Node.js  
+- Express.js  
 
-🌐 **Live Demo:**  
-  https://www.krashakinnovativesolution.com/
+**Database:**  
+- MongoDB  
+- Firebase Realtime Database  
 
-🧑‍💻 Developed By
+**APIs & Tools:**  
+- EmailJS  
+- Razorpay API  
+- Google Maps API  
+- Firebase SDK  
 
-Akshit Ahuja
-🎓 B.Tech CSE | Engineering College Bikaner
+**Version Control:**  
+- Git  
+- GitHub  
 
-🔗 LinkedIn Profile - https://www.linkedin.com/in/akshit-ahuja-1583b928a/
+---
 
-🔗 GitHub Profile - https://github.com/akshitahuja2022
+## 💡 Learning & Experience
+
+This internship provided hands-on experience in:
+
+- 💻 Full-stack web development (React.js + Node.js)  
+- 💰 Payment gateway integration  
+- 🌐 Google Maps API integration  
+- 📡 Working with IoT devices and real-time databases  
+- 🚜 Building scalable solutions for the agriculture sector  
+
+---
+
+## 🤝 Acknowledgement
+
+Special thanks to the **Krashak Innovative Solution Team** for their mentorship and support throughout the internship. 🌱
+
+---
+
+## 🧑‍💻 Developed By
+
+**Akshit Ahuja**  
+🎓 B.Tech CSE | Engineering College Bikaner  
+
+🔗 [LinkedIn](https://www.linkedin.com/in/akshit-ahuja-1583b928a/)  
+🔗 [GitHub](https://github.com/akshitahuja2022)
