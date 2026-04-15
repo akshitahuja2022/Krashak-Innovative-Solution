@@ -4,7 +4,7 @@ import support from "../assests/Support.png";
 import Footer from "../Component/Footer";
 import { handleError, handleSuccess } from "../Notifytoast/notification";
 import { motion } from "framer-motion";
-import MapPage from "./MapPage";
+// import MapPage from "./MapPage";
 
 function BookingPage() {
   const [amount] = useState(100);
@@ -19,7 +19,7 @@ function BookingPage() {
     state: "",
     mobile: "",
   });
-  const [isMap, setIsMap] = useState(false);
+  // const [isMap, setIsMap] = useState(false);
 
   // For handlePayment
   const handlePayment = async () => {
@@ -57,7 +57,6 @@ function BookingPage() {
         }
       );
       const data = await response.json();
-      console.log(data);
       handlePaymentVerify(data.data);
     } catch (error) {
       console.log(error);
@@ -221,7 +220,7 @@ function BookingPage() {
                   onChange={(e) =>
                     setFormData({ ...formData, address: e.target.value })
                   }
-                  onClick={() => setIsMap(true)}
+                  // onClick={() => setIsMap(true)}
                   className="in"
                   required
                 />
@@ -276,9 +275,9 @@ function BookingPage() {
         </motion.div>
       </div>
 
-      {isMap ? (
+      {/* {isMap ? (
         <MapPage isMap={isMap} setIsMap={setIsMap} setFormData={setFormData} />
-      ) : null}
+      ) : null} */}
 
       <div className="booking-footer">
         <Footer />
