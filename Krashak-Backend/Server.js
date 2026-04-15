@@ -24,12 +24,10 @@ app.use(
       "https://www.krashakinnovativesolution.com",
       "https://krashakinnovativesolution.com",
     ],
-    methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+    methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   }),
 );
-
-app.options("*", cors());
 
 app.use("/auth", AuthRouter);
 app.use("/payment", PaymentRouter);
