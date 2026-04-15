@@ -28,7 +28,6 @@ router.post("/order", (req, res) => {
     };
     razorpay.orders.create(options, (error, order) => {
       if (error) {
-        console.log(error);
         res.json(500).json({ message: "Something Went Wrong!" });
       }
       res.status(200).json({ data: order });
@@ -40,7 +39,6 @@ router.post("/order", (req, res) => {
 
 // Route 2: Create verify Api using Post Method  http://localhost:4000/payment/verify
 router.post("/verify", async (req, res) => {
-  console.log(req.body);
   const { razorpay_order_id, razorpay_payment_id, razorpay_signature, email } =
     req.body;
 
@@ -53,7 +51,6 @@ router.post("/verify", async (req, res) => {
       .createHmac("sha256", process.env.RAZORPAY_KEY_SECRET)
       .update(sign.toString())
       .digest("hex");
-
 
     // create isAuthentic
 
