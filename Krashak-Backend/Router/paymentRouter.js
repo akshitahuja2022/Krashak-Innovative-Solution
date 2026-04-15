@@ -31,11 +31,10 @@ router.post("/order", (req, res) => {
         console.log(error);
         res.json(500).json({ message: "Something Went Wrong!" });
       }
-      console.log(order);
       res.status(200).json({ data: order });
     });
   } catch (error) {
-    console.log(error);
+    res.status(200).json({ message: error.message });
   }
 });
 
@@ -55,7 +54,6 @@ router.post("/verify", async (req, res) => {
       .update(sign.toString())
       .digest("hex");
 
-    console.log(razorpay_signature === expectedSign);
 
     // create isAuthentic
 
@@ -80,12 +78,11 @@ router.post("/verify", async (req, res) => {
             "Krashak Soil Testing Device Registration & Payment Confirmation",
           html: SOIL_TESTING_REGISTRATION_TEMPLATE.replace(
             "{{user}}",
-            user.fname
+            user.fname,
           ),
         };
 
         await transporter.sendMail(mailOptions);
-        console.log("Email sent successfully to", user.email);
       }
 
       // send message
