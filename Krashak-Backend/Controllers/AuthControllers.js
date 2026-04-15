@@ -4,7 +4,7 @@ const UserModel = require("../Models/User");
 const transporter = require("../Config/Nodemailer");
 const {
   PASSWORD_RESET_TEMPLATE,
-  WELCOME_EMAIL_TEMPLATE,
+  // WELCOME_EMAIL_TEMPLATE,
 } = require("../Config/EmailTemplate");
 require("dotenv").config();
 
@@ -41,19 +41,19 @@ const signup = async (req, res) => {
     });
 
     // Sendeing Welcome Email
-    const mailOptions = {
-      from: process.env.SENDER_EMAIL,
-      to: userModel.email,
-      subject: "Welcome to Krashak Innovative Solution ",
-      html: WELCOME_EMAIL_TEMPLATE.replace("{{user}}", userModel.name),
-    };
+    // const mailOptions = {
+    //   from: process.env.SENDER_EMAIL,
+    //   to: userModel.email,
+    //   subject: "Welcome to Krashak Innovative Solution ",
+    //   html: WELCOME_EMAIL_TEMPLATE.replace("{{user}}", userModel.name),
+    // };
 
-    try {
-      await transporter.sendMail(mailOptions);
-      console.log("Email sent successfully");
-    } catch (emailError) {
-      console.error("Email sending failed:", emailError.message);
-    }
+    // try {
+    //   await transporter.sendMail(mailOptions);
+    //   console.log("Email sent successfully");
+    // } catch (emailError) {
+    //   console.error("Email sending failed:", emailError.message);
+    // }
 
     res.status(201).json({
       message: "Signup Successfully",
