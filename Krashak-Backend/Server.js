@@ -20,12 +20,10 @@ app.use(bodyParser.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(
   cors({
-    origin: [
-      "http://localhost:3000", // local dev
-    ],
+    origin: ["https://www.krashakinnovativesolution.com/"],
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     credentials: true,
-  })
+  }),
 );
 
 app.use("/auth", AuthRouter);
